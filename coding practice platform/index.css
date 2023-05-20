@@ -1,0 +1,60 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-variant: inherit;
+    font-style: oblique;
+    font-stretch: condensed;
+    color: rgb(255, 0, 0);
+    text-align: center
+}    
+
+input[type="submit"]{
+    background-color: rgb(0, 128, 255);
+    color: aliceblue;
+    height: 50px;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+}
+.container{
+    display: block;
+    border-style: groove;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: rgb(243, 114, 8);
+    text-align: center;
+}  
+a{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+#submit:hover{
+    color: black;
+    background-color: #14ee60;
+    transition: background-color 0.4s ease-out;
+}
+#fname{
+    margin-top: 20px;
+}
+div{
+    background-color: aliceblue;
+    border-radius: 30px;
+    border-color: chocolate;
+}
+html{
+    background-color: #dfeb72;
+}
+@media screen {
+    html{
+        min-width: auto;
+    }
+    form{
+        min-width: fit-content;
+        
+    }
+}

@@ -1,0 +1,37 @@
+h1{
+    color:royalblue;
+}
+#uname{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#password{
+    margin-bottom: 10px;
+}
+div{
+    display:block;
+    margin-bottom: 10px;
+    border-style: groove;
+    border-radius: 1rem;
+    border-color: blueviolet;
+    background-color: whitesmoke;
+}
+#submit{
+    background-color: #14a6e4;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
+body{
+    background-color: rgb(241, 73, 127);
+    text-align: center;
+}
+#submit:hover{
+    background-color: aqua;
+    transition: background-color 0.4s ease-in-out;
+}
+a:active{
+    color: red;
+}
